@@ -1,9 +1,9 @@
 {
   "expo": {
-    "name": "Go_TV",
+    "name": "GOTV",
     "slug": "Go_TV",
     "version": "1.0.0",
-    "orientation": "landscape",
+    "orientation": "default",
     "icon": "./assets/images/icon.png",
     "scheme": "gotv",
     "userInterfaceStyle": "automatic",
@@ -26,12 +26,13 @@
       [
         "expo-splash-screen",
         {
-          "backgroundColor": "#208AEF",
+          "backgroundColor": "#0a0e11",
           "image": "./assets/images/splash-icon.png",
-          "imageWidth": 76
+          "imageWidth": 120
         }
       ],
-      "expo-video"
+      "expo-video",
+      "./plugins/withAndroidTv.js"
     ],
     "experiments": {
       "typedRoutes": true,
